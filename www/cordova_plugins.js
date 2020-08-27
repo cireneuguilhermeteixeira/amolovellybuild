@@ -64,6 +64,44 @@ module.exports = [
         "id": "cordova-plugin-statusbar.StatusBarProxy",
         "pluginId": "cordova-plugin-statusbar",
         "runs": true
+    },
+    {
+        "file": "plugins/cordova-pdf-generator/www/pdf.js",
+        "id": "cordova-pdf-generator.pdf",
+        "pluginId": "cordova-pdf-generator",
+        "clobbers": [
+            "cordova.plugins.pdf",
+            "pugin.pdf",
+            "pdf"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-file-opener2/www/plugins.FileOpener2.js",
+        "id": "cordova-plugin-file-opener2.FileOpener2",
+        "pluginId": "cordova-plugin-file-opener2",
+        "clobbers": [
+            "cordova.plugins.fileOpener2"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-file-opener2/www/browser/isChrome.js",
+        "id": "cordova-plugin-file-opener2.isChrome",
+        "pluginId": "cordova-plugin-file-opener2",
+        "runs": true
+    },
+    {
+        "file": "plugins/cordova-plugin-file-opener2/src/browser/FileSaver.min.js",
+        "id": "cordova-plugin-file-opener2.FileSaver",
+        "pluginId": "cordova-plugin-file-opener2",
+        "clobbers": [
+            "FileSaver"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-file-opener2/src/browser/FileOpener2.js",
+        "id": "cordova-plugin-file-opener2.FileOpener2Proxy",
+        "pluginId": "cordova-plugin-file-opener2",
+        "runs": true
     }
 ];
 module.exports.metadata = 
@@ -75,7 +113,9 @@ module.exports.metadata =
     "cordova-plugin-whitelist": "1.3.4",
     "cordova-plugin-ionic-webview": "4.1.3",
     "cordova-plugin-statusbar": "2.4.3",
-    "cordova-plugin-ionic-keyboard": "2.2.0"
+    "cordova-plugin-ionic-keyboard": "2.2.0",
+    "cordova-pdf-generator": "2.1.1",
+    "cordova-plugin-file-opener2": "3.0.4"
 }
 // BOTTOM OF METADATA
 });
