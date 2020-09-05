@@ -102,6 +102,20 @@ module.exports = [
         "id": "cordova-plugin-file-opener2.FileOpener2Proxy",
         "pluginId": "cordova-plugin-file-opener2",
         "runs": true
+    },
+    {
+        "file": "plugins/es6-promise-plugin/www/promise.js",
+        "id": "es6-promise-plugin.Promise",
+        "pluginId": "es6-promise-plugin",
+        "runs": true
+    },
+    {
+        "file": "plugins/cordova-plugin-x-socialsharing/www/SocialSharing.js",
+        "id": "cordova-plugin-x-socialsharing.SocialSharing",
+        "pluginId": "cordova-plugin-x-socialsharing",
+        "clobbers": [
+            "window.plugins.socialsharing"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -115,7 +129,9 @@ module.exports.metadata =
     "cordova-plugin-statusbar": "2.4.3",
     "cordova-plugin-ionic-keyboard": "2.2.0",
     "cordova-pdf-generator": "2.1.1",
-    "cordova-plugin-file-opener2": "3.0.4"
+    "cordova-plugin-file-opener2": "3.0.4",
+    "es6-promise-plugin": "4.2.2",
+    "cordova-plugin-x-socialsharing": "6.0.1"
 }
 // BOTTOM OF METADATA
 });
