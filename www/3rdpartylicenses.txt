@@ -53,9 +53,6 @@ MIT
 @ionic-native/in-app-browser
 MIT
 
-@ionic-native/social-sharing
-MIT
-
 @ionic-native/splash-screen
 MIT
 
