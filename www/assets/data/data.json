@@ -424,16 +424,16 @@
 
   "tracks": [
     {
-      "name": "T-shirts"
+      "name": "t-shirt"
     },
     {
-      "name": "Cropped"
+      "name": "cropped"
     },
     {
-      "name": "Pijamas"
+      "name": "pijama"
     },
     {
-      "name": "Vestidos"
+      "name": "vestido"
     }
   ]
 }
