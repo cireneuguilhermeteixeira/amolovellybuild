@@ -15,11 +15,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.19.0",
+    "body-parser": "^1.20.1",
     "connect": "^3.6.6",
     "consign": "^0.1.6",
     "cors": "^2.8.5",
-    "express": "^4.16.3"
+    "express": "^4.18.2"
   },
   "repository": {
     "type": "git",
